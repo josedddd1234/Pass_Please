@@ -14,3 +14,6 @@ I have already designed the first prototype, I will be putting the model in gith
 
 In the following image, it is seen how the ESP32 CAM is introduced in the model
 <img width="531" height="576" alt="image" src="https://github.com/user-attachments/assets/5b87268a-d65a-4cbb-9a2d-488bea2d1890" />
+
+##CNN FUNCTION 
+I made a CNN using tensorslow with three outputs (red light, green light and no traffic light). The results are good, but the foto needs to be really close for it to work. The model and the two scripts used are in the folder scripts. Here is an example 
