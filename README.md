@@ -18,7 +18,11 @@ In the following image, it is seen how the ESP32 CAM is introduced in the model
 I will make a 3D print of it, and see what changes can i make.
 
 ## CNN FUNCTION 
-I made a CNN using tensorslow with three outputs (red light, green light and no traffic light), using the relu activation function and 25 epocs. The results are good, but the foto needs to be really close for it to work. The model and the two scripts used are in the folder scripts. Here is an example with a foto taken randomly in google earth 
+I made a CNN using tensorslow with three outputs (red light, green light and no traffic light), using the relu activation function and 25 epocs, here is a photo of the training phase, which I did with kraggle datasets, which are mostly free to use
+
+<img width="580" height="248" alt="image" src="https://github.com/user-attachments/assets/c94ca8ec-e694-4c34-8d3e-a8191d9438e4" />
+
+ The CNN results are good, it predicts accurately, but the foto needs to be really close for it to work. The model and the two scripts used are in the folder scripts. Here is an example with a foto taken randomly in google earth 
 
 <img width="31" height="87" alt="WhatsApp Image 2026-08-22 at 8 28 25 PM" src="https://github.com/user-attachments/assets/f48bd38f-df34-47ec-a180-7a16474d7594" />
 
@@ -26,4 +30,4 @@ Here is the result of the prediction:
 
 <img width="551" height="140" alt="image" src="https://github.com/user-attachments/assets/bdafd22a-472d-4311-8db9-26ce214c0374" />
 
-The detection is correct but the traffic light needed to be really zoomed in. So i will try another alternatives
+The detection is correct but the traffic light needed to be really zoomed in. So i will try another alternatives like using YOLO and CV2. 
