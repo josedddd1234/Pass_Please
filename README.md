@@ -6,7 +6,7 @@ My father is a person that cannot see (almost blind), for helping him, I´m tryi
 ##  Materials_planned
 I have planned to use a ESP32_CAM, a gyroscope and a battery holder. Making it affordable and easy to replicate. 
 
-## First_prototype
+## First_3D model
 I have already designed the first prototype, I will be putting the model in github. in adition i developed a CNN for reading the lights, the code is on the github page. The purpose is to made this like and addition to the white cane. The goal is making it sheep and confortable, improving life quality of this poblation
 
 <img width="486" height="563" alt="image" src="https://github.com/user-attachments/assets/d743a579-0666-4528-8ae1-ae7f954eff3e" />
@@ -15,5 +15,7 @@ I have already designed the first prototype, I will be putting the model in gith
 In the following image, it is seen how the ESP32 CAM is introduced in the model
 <img width="531" height="576" alt="image" src="https://github.com/user-attachments/assets/5b87268a-d65a-4cbb-9a2d-488bea2d1890" />
 
-##CNN FUNCTION 
+I will make a 3D print of it, and see what changes can i make 
+
+## CNN FUNCTION 
 I made a CNN using tensorslow with three outputs (red light, green light and no traffic light). The results are good, but the foto needs to be really close for it to work. The model and the two scripts used are in the folder scripts. Here is an example 
