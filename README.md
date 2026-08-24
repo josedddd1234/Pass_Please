@@ -15,12 +15,14 @@ I have already designed the first prototype, I will be putting the model in gith
 In the following image, it is seen how the ESP32 CAM is introduced in the model
 <img width="531" height="576" alt="image" src="https://github.com/user-attachments/assets/5b87268a-d65a-4cbb-9a2d-488bea2d1890" />
 
-I will make a 3D print of it, and see what changes can i make 
+I will make a 3D print of it, and see what changes can i make.
 
 ## CNN FUNCTION 
 I made a CNN using tensorslow with three outputs (red light, green light and no traffic light), using the relu activation function and 25 epocs. The results are good, but the foto needs to be really close for it to work. The model and the two scripts used are in the folder scripts. Here is an example with a foto taken randomly in google earth 
 
 <img width="31" height="87" alt="WhatsApp Image 2026-08-22 at 8 28 25 PM" src="https://github.com/user-attachments/assets/f48bd38f-df34-47ec-a180-7a16474d7594" />
+
+Here is the result of the prediction:
 
 <img width="551" height="140" alt="image" src="https://github.com/user-attachments/assets/bdafd22a-472d-4311-8db9-26ce214c0374" />
 
